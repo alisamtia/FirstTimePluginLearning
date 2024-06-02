@@ -1,0 +1,19 @@
+{
+    "name": "alisamtia/aliplugin",
+    "description": "Hey, There its my first plugin attempt to make a plugin",
+    "type": "project",
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "Inc\\": "Inc/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alisamtia",
+            "email": "contact@alisamtia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
