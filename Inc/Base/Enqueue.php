@@ -11,7 +11,7 @@ class Enqueue extends BaseController{
     }
 
     function enqueue(){
-        wp_enqueue_style('alipluginscript',$this->pluginUrl.'/assets/mystyle.css');
-        wp_enqueue_script('alipluginstyle',$this->pluginUrl.'/assets/myscript.js');
+        wp_enqueue_style('alipluginscript',$this->pluginUrl.'assets/mystyle.css',array(),null); // null is important to remove query string ver=6.5.3
+        wp_enqueue_script('alipluginstyle',$this->pluginUrl.'assets/myscript.js',array(),null); // null is important to remove query string ver=6.5.3
     }
 }
