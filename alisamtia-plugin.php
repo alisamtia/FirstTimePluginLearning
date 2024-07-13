@@ -72,4 +72,3 @@ function deactivate(){
 
 register_activation_hook(__FILE__,"Activate");
 register_deactivation_hook(__FILE__,"Deactivate");
-
